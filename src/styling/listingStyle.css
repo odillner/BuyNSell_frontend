@@ -1,0 +1,272 @@
+/* background for components: background-color: #2c3e50; */
+
+.h3 {
+    margin: 0 !important;
+}
+
+/* For divs with headers*/
+#header-div {
+    background-color: #333;
+    padding: 1px 0px 1px 0px;
+    margin: 5px 5px 10px 5px;
+    border-radius: 0px 20px 0px 0px;
+}
+
+/* for Input box */
+.myInput {
+    padding: 3px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+
+    .myInput input:focus {
+        outline: none;
+    }
+/* for buttons */
+.myButton {
+    margin: 4px;
+    background-color: #44c767;
+    border-radius: 10px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 17px;
+    padding: 5px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+    .myButton:hover {
+        background-color: #5cbf2a;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+/* for text area */
+.text_area {
+    padding: 3px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+
+
+
+/* Styling specific to createListing*/
+.create-listing {
+    background-color: #2c3e50;
+    padding-top: 1px;
+}
+
+    .create-listing div {
+        margin: 5px;
+    }
+    .create-listing h2 {
+        color: #ffffff;
+        font-family: monospace;
+    }
+
+    .create-listing input {
+        padding: 3px;
+        font-size: 16px;
+        border-width: 1px;
+        border-color: #CCCCCC;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-style: solid;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(66,66,66,.75);
+        text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+    }
+
+    .create-listing input:focus {
+        outline: none;
+    }
+
+    .create-listing button {
+        margin: 4px 4px 4px 0px;
+    }
+
+
+/*styling specific to detailedListing*/
+.detailed-listing {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-family: monospace;
+    padding: 5px;
+}
+    #detail-header-div {
+        background-color: #333;
+        padding: 1px 0px 1px 0px;
+        margin: 5px 0px 10px 0px;
+        border-radius: 0px 20px 0px 0px;
+    }
+
+    .detailed-listing h2 {
+        color: #ffffff;
+        font-family: monospace;
+    }
+
+.detailed-listing > div > button {
+    /*
+    background-color: #f24537;
+    border: 1px solid #d02718; */
+    margin: 10px;
+    float:right;
+}
+
+    .detailed-listing button:hover {
+        background-color: #d02718;
+    }
+
+    #map-div {
+        padding: 5px 0 0 0;
+    }
+
+#detail-padding-margin {
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
+
+#property-style {
+    float: right;
+}
+
+.item-properties {
+    font-size: 14px;
+}
+
+.item-properties div {
+    margin: 5px 5px 5px 0;
+}
+
+#description-style {
+    border-top: solid #333;
+    padding: 5px 0 0 0;
+    margin: 50px 0 0 0;
+    min-height: 200px;
+}
+
+    #description-style h3 {
+        padding: 12px 12px 12px 0px;
+        background-color: transparent;
+    }
+
+.recommendations {
+    background-color: #2c3e50;
+    font-family: monospace;
+    padding: 5px 0 0 0;
+}
+
+.recommendations > h3 {
+    margin: 5px;
+}
+
+
+#rec-listing {
+    font-family: monospace;
+    height: 400px;
+    width: 100%;
+}
+
+#rec-text > p {
+    margin-bottom: 2px;
+    margin-top: 5px;
+    color: lightgray;
+}
+
+/*#img-setting {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height:600px;
+}*/
+
+#image-box {
+    background-color: #34495e;
+    height: 475px;
+    width: 715px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#image-box > img {
+    max-width: 700px;
+    max-height: 400px;
+}
+
+#recimage-box {
+    background-color: #2c3e50;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recimage-box > img {
+    max-width: 195px;
+    max-height: 175px;
+}
+
+ul {
+    list-style: none;
+    max-height: 400px;
+    margin: 0;
+    overflow: auto;
+    padding: 20px 0 0 0;
+    text-indent: 0px;
+    /*border: 1px solid black;*/
+}
+
+li {
+    display: inline-block;
+    line-height: 25px;
+    /*border: 1px solid black;*/
+    padding: 15px;
+    margin: 15px;
+    background-color: #34495e;
+    height: 280px;
+    width: 225px;
+    text-align: left;
+    overflow: hidden;
+    //box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0 4px 2px -2px #333;
+    border-radius: 5px;
+}
+
+    li:hover {
+        outline: solid #7a8089;
+        transition: outline ease-in-out 0.2s;
+    }
+
+/* Styling specific to singleListing & ListingView*/
+
+#img-set {
+    float:left;
+    padding-right: 10px;
+}
+
+#listing-view-ul {
+    max-height: 600px;
+    max-width:600px;
+}

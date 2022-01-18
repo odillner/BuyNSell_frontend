@@ -1,0 +1,36 @@
+body {
+    background: #2c3e50;
+    color: white;
+    font-family: monospace;
+}
+
+input {
+    color: black;
+}
+
+.row .alert {
+    margin-top: 25px;
+}
+
+h3 {
+    background-color: #333;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+    letter-spacing: .1em;
+}
+
+.btn {
+    font-weight: bolder;
+    letter-spacing: .2em;
+}
+
+#login {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#signup-button {
+    margin-top: 5px;
+}
+  

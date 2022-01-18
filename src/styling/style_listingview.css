@@ -1,0 +1,19 @@
+body {
+    background: #2c3e50;
+    color: white;
+    font-family: monospace;
+}
+
+h3 {
+    background-color: #333;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+    letter-spacing: .1em;
+}
+
+
+#listingview {
+    margin-top: 10px;
+    margin-left: 300px;
+}   
